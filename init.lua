@@ -86,7 +86,7 @@ vim.keymap.set('n', '<leader>w', '<cmd>w<CR>')
 -- Tab size/stuff
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 0
-vim.opt.expandtab = false
+vim.opt.expandtab = true
 
 -- Diagnostic Config & Keymaps
 -- See :help vim.diagnostic.Opts
